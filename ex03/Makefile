@@ -3,10 +3,11 @@ FLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -rf
 SRC = main.cpp \
 		Bureaucrat.cpp \
-		PresidentialPardonForm.cpp \
 		ShrubberyCreationForm.cpp \
+		PresidentialPardonForm.cpp \
 		RobotomyRequestForm.cpp \
-		AForm.cpp
+		AForm.cpp \
+		Intern.cpp
 OBJS_DIR = obj
 OBJS = $(SRC:%.cpp=$(OBJS_DIR)/%.o)
 
